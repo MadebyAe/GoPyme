@@ -6,11 +6,11 @@
 
 Al hacer click en el icono de Linkedin se deberan pedir permisos al usuario
 
-![Alt text](https://raw.githubusercontent.com/MadebyAe/GoPyme/master/assets/img/home.png =500x)
+![Alt text](https://raw.githubusercontent.com/MadebyAe/GoPyme/master/assets/img/home.png)
 
 Una vez aceptando los permisos redirigir a `/profile` donde se mostrará la mayor cantidad información de usuario. El proyecto usa handlebars así que será sumamente sencillo trabajar con las vistas. 
 
-![Alt text](https://raw.githubusercontent.com/MadebyAe/GoPyme/master/assets/img/profile.png =500x)
+![Alt text](https://raw.githubusercontent.com/MadebyAe/GoPyme/master/assets/img/profile.png)
 
 ---
 
