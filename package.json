@@ -1,0 +1,24 @@
+{
+  "name": "GoPyme",
+  "version": "1.0.0",
+  "description": "GoPyme talent test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MadebyAe/GoPyme.git"
+  },
+  "author": "Ae <hi@angel-estrada.com> (http://www.angel-estrada.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadebyAe/GoPyme/issues"
+  },
+  "homepage": "https://github.com/MadebyAe/GoPyme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "node-handlebars": "^0.9.7"
+  }
+}
