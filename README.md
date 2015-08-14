@@ -16,10 +16,10 @@ Una vez aceptando los permisos redirigir a `/profile` donde se mostrará la mayo
 
 ####Evaluación:
 
-* Implementación
-* Uso de mojes practicas
 * Creatividad
-* Integración de API
+* Implementación
+* Uso de mejores practicas
+* Integración del API
 * Tiempo
 * Test
 
