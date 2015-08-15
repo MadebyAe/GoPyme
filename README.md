@@ -50,7 +50,7 @@ Al concluir el test deberan de hacer un `pull request` y toda las dudas sobre el
 
 `npm install`
 
-`npm tun start`
+`npm run start`
 
 ---
 
