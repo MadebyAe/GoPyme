@@ -1,6 +1,7 @@
 // Import
 import express    from 'express'
 import handlebars from 'node-handlebars'
+import linkedin   from 'node-linkedin'
 import home       from './src/home'
 import profile    from './src/profile'
 

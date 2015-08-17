@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/MadebyAe/GoPyme",
   "dependencies": {
+    "bower": "^1.4.1",
     "express": "^4.13.3",
-    "node-handlebars": "^0.9.7"
+    "node-handlebars": "^0.9.7",
+    "node-linkedin": "^0.5.0"
   }
 }
