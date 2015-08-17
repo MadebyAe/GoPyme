@@ -1,5 +1,5 @@
 {
-  "name": "GoPyme",
+  "name": "gopyme",
   "version": "1.0.0",
   "description": "GoPyme talent test",
   "main": "server.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MadebyAe/GoPyme.git"
+    "url": "git+https://github.com/MadebyAe/GoPyme.git"
   },
   "author": "Ae <hi@angel-estrada.com> (http://www.angel-estrada.com/)",
   "license": "ISC",
@@ -19,6 +19,11 @@
   "homepage": "https://github.com/MadebyAe/GoPyme",
   "dependencies": {
     "express": "^4.13.3",
-    "node-handlebars": "^0.9.7"
-  }
+    "node-handlebars": "^0.9.7",
+    "node-linkedin":"^0.5.0",
+  },
+  "devDependencies": {},
+  "keywords": [
+    "gopyme"
+  ]
 }
