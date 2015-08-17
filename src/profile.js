@@ -1,13 +1,13 @@
 function Profile(req, res, next) {
-  let lin = require('node-linkedin')('78y5b1urgxpswh', 'GcgckmPUs548YKJg', null);
+  let profile;
+  let lin = require('node-linkedin')('78y5b1urgxpswh', 'GcgckmPUs548YKJg', 'http://localhost:3001', 'R2NnY2ttUFVzNTQ4WUtKZw');
   lin.init('78y5b1urgxpswh');
-  console.log(lin);
-  linkedin.companies_search.name('facebook', 1, function(err, company) {
-  	console.log(err, company);
-  };
-  lin.people.me(function(err, $in){
-  	console.log(err, $in);
-  });
-  res.render('profile',{title: 'Linkedin test'});
+  if(lin.people){
+    lin.people.me(['id', 'first-name', 'last-name', 'picture-url', 'picture-urls::(original)', 'num-connections', 'summary', 'skills', 'positions'],function(err, $in){
+      profile = $in;
+    });
+  }
+  console.log(profile);
+  res.render('profile',{title: 'Linkedin test', profile: profile, profileImg: profile.pictureUrls.values[0]});
 }
 export default Profile

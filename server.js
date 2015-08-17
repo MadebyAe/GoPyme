@@ -3,6 +3,7 @@ import express    from 'express'
 import handlebars from 'node-handlebars'
 import linkedin   from 'node-linkedin'
 import home       from './src/home'
+import oauth      from './src/oauth'
 import profile    from './src/profile'
 
 // Set
@@ -14,6 +15,7 @@ app.engine("html", handlebars());
 app.use('/assets', express.static(__dirname + '/assets', { maxAge:86400000 }));
 // Routes
 app.get('/', home);
+app.get('/oauth', oauth);
 app.get('/profile', profile);
 
 
