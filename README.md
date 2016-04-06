@@ -1,4 +1,4 @@
-# GoPyme Node
+# Creze Node
 
 ---
 
